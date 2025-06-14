@@ -10,8 +10,8 @@ typedef struct cadastro_pessoas pessoas;
 
 int main(){
     int i;
-    int mais_velho;
-    int mais_novo;
+    // int mais_velho;
+    //  int mais_novo;
     int indice_maisVelho = 0;
     int indice_maisNovo = 0;
     
@@ -21,9 +21,11 @@ int main(){
         
         printf("Digite o seu nome: ");
         scanf(" %s", lista[i].nome);
+        fflush(stdin);
         
         printf("Digite a sua data de nasciemnto: ");
         scanf("%d %d %d", &lista[i].data_nascimento[0], &lista[i].data_nascimento[1], &lista[i].data_nascimento[2]);
+        fflush(stdin);
 
     }
     for (i = 1; i < 6; i++) {
