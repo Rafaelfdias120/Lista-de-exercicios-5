@@ -10,8 +10,6 @@ typedef struct cadastro_pessoas pessoas;
 
 int main(){
     int i;
-    // int mais_velho;
-    //  int mais_novo;
     int indice_maisVelho = 0;
     int indice_maisNovo = 0;
     
